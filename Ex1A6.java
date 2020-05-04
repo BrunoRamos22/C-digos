@@ -22,9 +22,18 @@ public class MyClass {
 }
 
     if(primeira_mutacao && segunda_mutacao){
-        System.out.println("mutação encontrada");
+        System.out.println(Mutante() );
     }else{
-        System.out.println("DNA normal");
+        System.out.println(Normal() );
     }
     }
+    
+    public static String Mutante(){
+        return "Mutação encontrada";
     }
+    
+    public static String Normal(){
+        return "DNA normal";
+    }
+}
+
