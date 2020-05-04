@@ -15,7 +15,12 @@ public class MyClass {
     System.out.println ("digite o segundo número");
     B = sc.nextInt();
     
-    System.out.println("PROD =" + (A*B));
+    System.out.println("PROD = " + prod(A, B) );
     
+    }
+    
+    public static int prod(int A, int B){
+        
+            return A * B;
     }
 }
