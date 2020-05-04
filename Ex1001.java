@@ -15,8 +15,15 @@ public class MyClass {
     System.out.println ("digite o segundo número");
     B = sc.nextInt();
     
-    System.out.println("X =" + (A+B));
-    
+    System.out.println(imprime() + soma(A, B) );
     }
+    
+    public static int soma(int A, int B){
+        return A + B;
+    }
+    
+    public static String imprime(){
+        return "A soma é: ";
+    }
+    
 }
-
